@@ -61,3 +61,146 @@ x==========x]
 [2025-01-15 01:33:51,563:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-01-15 02:35:44,796:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:35:44,819:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:35:44,832:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:35:44,841:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:35:44,845:INFO:common:Creating directory: artifacts/data_transformation]
+[2025-01-15 02:35:45,303:INFO:1894635138:split data]
+[2025-01-15 02:35:45,305:INFO:1894635138:(1199, 12)]
+[2025-01-15 02:35:45,307:INFO:1894635138:(400, 12)]
+[2025-01-15 02:52:25,788:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-15 02:52:25,791:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:52:25,794:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:52:25,797:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:52:25,799:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:52:25,800:INFO:common:Creating directory: artifacts/data_ingestion]
+[2025-01-15 02:52:25,802:INFO:data_ingestion:File already exists]
+[2025-01-15 02:52:25,814:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:52:25,814:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-15 02:52:25,817:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:52:25,819:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:52:25,821:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:52:25,822:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:52:25,822:INFO:common:Creating directory: artifacts/data_validation]
+[2025-01-15 02:52:25,853:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:52:25,854:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-15 02:52:25,854:ERROR:main:'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\sneha\OneDrive\Desktop\wine quality prediction\Wine-Quality-Prediction\main.py", line 32, in <module>
+    data_ingestion.initiate_data_transformation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation'. Did you mean: 'initiate_data_validation'?
+[2025-01-15 02:53:08,904:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-15 02:53:08,907:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:53:08,908:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:53:08,911:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:53:08,912:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:53:08,913:INFO:common:Creating directory: artifacts/data_ingestion]
+[2025-01-15 02:53:08,913:INFO:data_ingestion:File already exists]
+[2025-01-15 02:53:08,923:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:53:08,924:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-15 02:53:08,926:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:53:08,927:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:53:08,929:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:53:08,929:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:53:08,930:INFO:common:Creating directory: artifacts/data_validation]
+[2025-01-15 02:53:08,949:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:53:08,949:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-15 02:53:08,950:ERROR:main:'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\sneha\OneDrive\Desktop\wine quality prediction\Wine-Quality-Prediction\main.py", line 34, in <module>
+    data_ingestion.initiate_data_transformation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation'. Did you mean: 'initiate_data_validation'?
+[2025-01-15 02:54:58,973:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-15 02:54:58,977:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:54:58,980:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:54:58,983:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:54:58,986:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:54:58,987:INFO:common:Creating directory: artifacts/data_ingestion]
+[2025-01-15 02:54:58,988:INFO:data_ingestion:File already exists]
+[2025-01-15 02:54:58,996:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:54:58,997:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-15 02:54:59,001:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:54:59,006:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:54:59,009:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:54:59,010:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:54:59,010:INFO:common:Creating directory: artifacts/data_validation]
+[2025-01-15 02:54:59,042:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:54:59,043:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-15 02:54:59,043:ERROR:main:'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\sneha\OneDrive\Desktop\wine quality prediction\Wine-Quality-Prediction\main.py", line 34, in <module>
+    data_ingestion.initiate_data_transformation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation'. Did you mean: 'initiate_data_validation'?
+[2025-01-15 02:56:17,063:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-15 02:56:17,066:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:56:17,070:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:56:17,074:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:56:17,076:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:56:17,077:INFO:common:Creating directory: artifacts/data_ingestion]
+[2025-01-15 02:56:17,077:INFO:data_ingestion:File already exists]
+[2025-01-15 02:56:17,086:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:56:17,087:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-15 02:56:17,090:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 02:56:17,092:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 02:56:17,094:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 02:56:17,095:INFO:common:Creating directory: artifacts]
+[2025-01-15 02:56:17,096:INFO:common:Creating directory: artifacts/data_validation]
+[2025-01-15 02:56:17,135:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-15 02:56:17,136:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-15 02:56:17,136:ERROR:main:'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\sneha\OneDrive\Desktop\wine quality prediction\Wine-Quality-Prediction\main.py", line 34, in <module>
+    data_ingestion.initiate_data_transformation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'initiate_data_transformation'. Did you mean: 'initiate_data_validation'?
+[2025-01-15 03:04:43,137:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-15 03:04:43,139:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 03:04:43,141:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 03:04:43,143:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 03:04:43,144:INFO:common:Creating directory: artifacts]
+[2025-01-15 03:04:43,144:INFO:common:Creating directory: artifacts/data_ingestion]
+[2025-01-15 03:04:43,145:INFO:data_ingestion:File already exists]
+[2025-01-15 03:04:43,151:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-15 03:04:43,152:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-15 03:04:43,154:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 03:04:43,154:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 03:04:43,155:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 03:04:43,156:INFO:common:Creating directory: artifacts]
+[2025-01-15 03:04:43,156:INFO:common:Creating directory: artifacts/data_validation]
+[2025-01-15 03:04:43,171:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-15 03:04:43,171:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-15 03:04:43,175:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 03:04:43,175:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 03:04:43,176:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 03:04:43,177:INFO:common:Creating directory: artifacts]
+[2025-01-15 03:04:43,178:INFO:common:Creating directory: artifacts/data_transformation]
+[2025-01-15 03:04:43,203:INFO:data_transformation:Splited data into training and test sets]
+[2025-01-15 03:04:43,204:INFO:data_transformation:(1199, 12)]
+[2025-01-15 03:04:43,204:INFO:data_transformation:(400, 12)]
+[2025-01-15 03:04:43,205:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
