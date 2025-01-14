@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s:")
 project_name = "Wine-Quality-Prediction"
 
 list_of_files = [
-    ".gthub/workflows/.gitkeep",
+    ".github/workflows/.gitkeep",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
@@ -24,7 +24,7 @@ list_of_files = [
     "Dockerfile",
     "setup.py",
     "research/research.ipynb",
-    "templates/index.html"
+    "templates/index.html",
 
 ]
 
