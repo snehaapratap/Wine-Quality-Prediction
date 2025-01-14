@@ -1,1 +1,11 @@
 [2025-01-14 13:37:36,356:INFO:main:custom logging data]
+[2025-01-15 00:53:35,099:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-15 00:53:35,104:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-15 00:53:35,144:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-15 00:53:35,146:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-15 00:53:35,148:INFO:common:Creating directory: artifacts]
+[2025-01-15 00:53:35,148:INFO:common:Creating directory: artifacts/data_ingestion]
+[2025-01-15 00:53:35,150:INFO:data_ingestion:File already exists]
+[2025-01-15 00:53:35,164:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
