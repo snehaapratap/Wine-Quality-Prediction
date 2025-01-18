@@ -313,3 +313,8 @@ AttributeError: 'NoneType' object has no attribute 'name'
 [2025-01-15 14:56:48,292:INFO:common:Reading the yaml file from the path: schema.yaml]
 [2025-01-15 14:56:48,292:INFO:common:Creating directory: artifacts]
 [2025-01-15 14:56:48,292:INFO:common:Creating directory: artifacts/model_trainer]
+[2025-01-18 12:22:45,961:INFO:common:Reading the yaml file from the path: config\config.yaml]
+[2025-01-18 12:22:45,977:INFO:common:Reading the yaml file from the path: params.yaml]
+[2025-01-18 12:22:45,990:INFO:common:Reading the yaml file from the path: schema.yaml]
+[2025-01-18 12:22:45,994:INFO:common:Creating directory: artifacts]
+[2025-01-18 12:22:45,995:INFO:common:Creating directory: artifacts/model_evaluation]
